@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import { AuthenticateUserController } from './controlles/AuthenticateUserControlle';
-import { CreateMessageController } from './controlles/CreateMessageController';
-import { Get3LastMessagesController } from './controlles/GetLast3MessagesController';
-import { ProfileUserController } from './controlles/ProfileUserController';
+import { AuthenticateUserController } from './controllers/AuthenticateUserController';
+import { CreateMessageController } from './controllers/CreateMessageController';
+import { Get3LastMessagesController } from './controllers/GetLast3MessagesController';
+import { ProfileUserController } from './controllers/ProfileUserController';
 import { ensureAuthenticated } from './middlewares/ensureAuthenticated';
 
 const router = Router();
